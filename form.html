@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>form</title>
+</head>
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        color:  white;
+     }
+header{
+    background-color: #152B55;
+    text-align: center;
+    font-size: 55px;
+    padding: 50px;
+    font-style: italic;
+    text-decoration: underline;
+}
+h2{
+    text-align: center;
+}
+.left{
+      
+      display: inline-block;
+      position: absolute;
+             left: 48px;
+             top: 20px;
+             font-size: 13px;
+             text-align: center;
+             text-decoration: underline;
+
+     }
+
+.left img{
+    width: 90px;
+    pisition: center;
+}
+	.container {
+        border: 2px solid white;
+        margin: 30px 900px;
+        padding: 30px;
+        width: 30%;
+        border-radius: 28px;
+        background-color: burlywood;
+    }
+
+    .form-group input,textarea {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 400px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 10px;
+        background-color: #fffdd0;
+    }
+
+
+    .container h1 {
+        text-align: center;
+        color: black;
+        margin: 10px;
+    }
+
+    .container  button {
+        color: white;
+        width: 20%;
+        padding: 15px;
+        margin: 20px auto;
+        border-radius: 10px;
+        text-align: center;
+        background-color: darkgreen;
+       
+        display: block;
+        
+    }
+    body{
+    	background-image: url(https://media.istockphoto.com/photos/close-up-on-customer-man-hand-pressing-on-smartphone-screen-with-five-picture-id1303530194?b=1&k=20&m=1303530194&s=170667a&w=0&h=ukLDaFjMtkDjRMBX5sIx027Eu7OKYgaaEc5DyKFL5fc=);
+        background-size: 1550px;
+    }
+</style>
+<body>
+    <header class="header">
+        WELCOME SODA FOUNTAIN
+         
+        <div class="left">
+              <img src="ice1.png" alt="">
+              <div><strong>welcome soda fountain</strong></div>
+        </div>
+
+    </header>
+   <div class="container">
+        <h1 style="color:black">RIVIEW</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="items you bought">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="rate out of 5">
+            </div>
+            <div class="form-group">
+
+                <textarea id="txtArea" rows="2" cols="60" name="" placeholder="review about the items you bought"></textarea>
+            </div>
+            
+            <div class="form-group">
+
+                <textarea id="txtArea" rows="2" cols="60" name="" placeholder="review about our parlour"></textarea>
+            </div>
+            
+              <button class="btn">Submit</button>
+            
+        </form>
+    </div>
+</body>
+</html>
